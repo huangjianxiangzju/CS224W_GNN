@@ -4,3 +4,13 @@ Dataset
 Zachary karate club
 [1]	Jérôme Kunegis. KONECT – The Koblenz Network Collection. In Proc. Int. Conf. on World Wide Web Companion, pages 1343–1350, 2013. [ http ]
 [2]	Wayne Zachary. An information flow model for conflict and fission in small groups. J. of Anthropol. Res., 33:452–473, 1977.
+
+
+Concepts
+
+Induction is reasoning from observed training cases to general rules, which are then applied to the test cases.
+Inductive learning is the same as what we commonly know as traditional supervised learning. We build and train a machine learning model based on a labelled training dataset we already have. Then we use this trained model to predict the labels of a testing dataset which we have never encountered before.
+Transduction
+Transduction is reasoning from observed, specific (training) cases to specific (test) cases.
+In contrast to inductive learning, transductive learning techniques have observed all the data beforehand, both the training and testing datasets. We learn from the already observed training dataset and then predict the labels of the testing dataset. Even though we do not know the labels of the testing datasets, we can make use of the patterns and additional information present in this data during the learning process.
+(https://towardsdatascience.com/inductive-vs-transductive-learning-e608e786f7d)
